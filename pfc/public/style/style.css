@@ -1,0 +1,102 @@
+@import: url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F2F2;
+  height: 100vh;
+
+  margin: 0;
+	height: 100%;
+	/* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+  background: #E8CBC0;
+  background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);
+  background: linear-gradient(to right, #636FA4, #E8CBC0);
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+#options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 50%;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px #333;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 4px 4px #333;
+}
+
+
+#rock {
+  background-color: #F44336;
+  color: #FFFFFF;
+}
+
+#paper {
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
+
+#scissors {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+}
+
+
+#events {
+  margin-bottom: 2rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+  color: #333;
+}
+
+.button {
+  width: 170px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button-3 {
+  margin-top: 50px;
+  padding: 15px 30px;
+  background-color: #c266d3;
+  border-radius: 20px;
+  color: #fff;
+  transition: .3s;
+}
+
+.button-3:hover {
+  box-shadow: 8px 8px #99bdff;
+  transition: .3s;
+}

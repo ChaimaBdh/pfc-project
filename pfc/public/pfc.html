@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PFC game</title>
+		<meta name="author" content="Boudehane-Anseur"/>
+		<link rel="stylesheet" type="text/css" href="style/style.css"/>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div id="events">
+    </div>
+    <div id="options">
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+    </div>
+    <div id="again" class="button button-3">Start Again</div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="scripts/client.js"></script>
+    <script src="../controllers/socketController.js"></script>
+
+  </body>
+</html>
