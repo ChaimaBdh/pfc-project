@@ -6,13 +6,13 @@
 *cloner le projet*
 
 ```bash  
-git clone 
+git clone git@github.com:ChaimaBdh/pfc-project.git 
 ```
 
-*se placer dans le répertoire projet1/pfc*  
+*se placer dans le répertoire*  
 
 ```bash  
-cd projet1/pfc
+cd pfc-project/pfc
 ```  
 
 ## Installer les modules
